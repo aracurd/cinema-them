@@ -1,0 +1,167 @@
+/*
+Theme Name: Cinema_catalog
+Theme URI: cinema_hall
+Description: Тема для каталога фильмов для кинотеатра Cinema Hall
+Author: aracurd
+Author URI: none
+Version: 0001
+*/
+
+
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+    url('../fonts/chunkfive-webfont.woff') format('woff'),
+    url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+    url('../fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Custom styles*/
+menu {
+    padding:0;
+    margin:0;
+}
+
+/*цвет хедера*/
+.navbar-recolor{
+    /*background: #f3b663;*/
+    border-color: #f3b663;
+    border-radius: 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef8d31+0,f5ab66+50,ef8d31+100 */
+    background: #ef8d31; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ef8d31 0%, #f5ab66 50%, #ef8d31 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ef8d31 0%,#f5ab66 50%,#ef8d31 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ef8d31 0%,#f5ab66 50%,#ef8d31 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8d31', endColorstr='#ef8d31',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+
+.header-stl{
+    font-family: "chunkfiveroman";
+    color: #0f0f0f;
+}
+
+
+
+/*отступ у контента от хедера*/
+.theme-showcase {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+/*отстут от слайдера*/
+.table-margin {
+    margin: 30px 0;
+}
+
+.col-md-3 a .img-logo{
+    height: 84px !important;
+
+}
+.col-sm-12 a >img.img-logo, .col-xs-12 a >img.img-logo{
+    height: 84px !important;
+    width: 230px;!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.navbar.navbar-default.navbar-bottom{margin-bottom: 0}
+
+.vk-a-style{
+    margin-top: 10px !important;
+}
+
+#vk-glif{
+    padding: 3px 5px 0 5px;
+    height: 25px;
+    width: 25px;
+    background-color:#2e6da4;
+    color: white;
+    border-radius: 3px;
+}
+
+#content-block{
+    margin-top: 50px;
+}
+
+.rov-post-style {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.treyler-style {
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+
+ }
+
+.foot-paddings {
+    padding: 15px 0 15px 20px;
+    margin-left: 0 !important;
+
+}
+
+.youtube-respons-blk{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.youtube-respons-blk iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-button-color{
+    border-color: #9c3328 !important;
+}
+
+.icon-bar-color{
+    background-color: #9c3328 !important;
+}
+
+.adtv-box{
+    overflow: hidden;
+    height: 200px;
+    background-color: #00A8EF;
+}
+
+.contact-style{
+    /*border-bottom: 1px solid #fff;*/
+}
+
+.contact-style > address{
+    padding-right: 20px;
+    margin-bottom: 0;
+    color: #0f0f0f;
+    font-size: 20px;
+}
+
+.active >a{
+    border-bottom: 2px solid red;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #eea236 !important;
+}
+
+.menu-stl li >a {
+    color: #0f0f0f !important;
+    font-weight: bold;
+}
+
+
